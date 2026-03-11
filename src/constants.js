@@ -67,13 +67,9 @@ export function computeFIRE(currentPortfolio, monthlyContrib, annualReturn) {
 }
 
 export const DEFAULT_DEBTS = [
-  { id: 'citi-diamond', name: 'Citi Diamond', balance: 4200, monthly: 500, apr: 0, type: 'credit', promoDeadline: new Date(new Date().getFullYear(), 2, 31).toISOString() },
-  { id: 'citi-simplicity', name: 'Citi Simplicity', balance: 6800, monthly: 400, apr: 0, type: 'credit', promoDeadline: new Date(new Date().getFullYear(), 10, 1).toISOString() },
-  { id: 'amex-platinum', name: 'Amex Platinum', balance: 1800, monthly: 1800, apr: 0, type: 'charge', promoDeadline: null },
-  { id: 'iphone', name: 'iPhone Installment', balance: 320, monthly: 80, apr: 0, type: 'installment', promoDeadline: null },
-  { id: 'tesla', name: 'Tesla Lease', balance: 14400, monthly: 600, apr: 0, type: 'lease', promoDeadline: null },
-  { id: 'student-loan', name: 'Student Loan', balance: 22000, monthly: 280, apr: 6.5, type: 'loan', promoDeadline: null },
-  { id: 'mother-support', name: 'Mother Support', balance: 0, monthly: 400, apr: 0, type: 'fixed', promoDeadline: null },
+  { id: 'citi-diamond',    name: 'Citi Diamond',    balance: 4200,  monthly: 500, apr: 0,   type: 'credit', promoDeadline: new Date(new Date().getFullYear(), 2, 31).toISOString() },
+  { id: 'citi-simplicity', name: 'Citi Simplicity', balance: 6800,  monthly: 400, apr: 0,   type: 'credit', promoDeadline: new Date(new Date().getFullYear(), 10, 1).toISOString() },
+  { id: 'student-loan',    name: 'Student Loan',    balance: 22000, monthly: 280, apr: 6.5, type: 'loan',   promoDeadline: null },
 ]
 
 export const DEFAULT_FIRE = {
